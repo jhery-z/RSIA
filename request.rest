@@ -21,3 +21,16 @@ Content-Type: application/json
     "status": "true",
     "date_range": "2022-11-22"
   }
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email" : "jhon@gmail.com",
+    "password" : "123456"
+}
+
+
+
+
