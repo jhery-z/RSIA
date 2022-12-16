@@ -5,6 +5,9 @@ import db from '../config/Database.js';
 const { DataTypes } = Sequelize;
 
 const Users = db.define('users', {
+    doctor_id:{
+        type: DataTypes.INTEGER
+    },
     doctor_name:{
         type: DataTypes.STRING
     },

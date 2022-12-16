@@ -9,16 +9,15 @@ POST http://localhost:5000/users
 Content-Type: application/json
 
 {
-    "doctor_id": "32",
-    "doctor_name": "Heri",
-    "email": "heri@gmail.com",
+    "doctor_id": "34",
+    "doctor_name": "Jhon",
+    "email": "jhon@gmail.com",
     "password": "123456",
     "confPassword": "123456",
-    "day": "senin",
+    "day": "Rabu",
     "time_start": "13.00",
     "time_finish": "14.00",
-    "quota": "10",
-    "status": "ok",
-    "date_range": "2022-11-28"
-
-}
+    "quota": "22",
+    "status": "true",
+    "date_range": "2022-11-22"
+  }
